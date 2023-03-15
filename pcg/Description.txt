@@ -1,0 +1,18 @@
+
+Description of the data:
+The provided noisy recordings have been artificially created from a clean PCG and different interferences signals: each actual signal has been recorded separately.
+
+The recordings have been bandpass filtered between 15Hz and 300Hz and the sampling frequency is 1kHz.
+The testing files are Matlab "S*.mat" (*=1,2,3) files containing 
+	_ the single mixture denotes "x" of dimension 1-by-"number of time samples"
+	_ the sampling frequency "fs" in Hz
+
+
+
+
+Evaluation:
+We provide the ground truth of these data Matlab "S*_Clean.mat" for evaluation of the tested method. 
+ 
+The quality of the separation process will be evaluated by the BSS-eval toolbox [1]. The SDR, SIR and SAR indexes will be computed on sliding windows of 1 second with an overlap of 0.5 second. The performance will then only retain the indexes related to the heart sounds.
+
+[1] Emmanuel Vincent, Rémi Gribonval, and Cédric Févotte, "Performance measurement in blind audio source separation," IEEE Trans. on Audio, Speech and Language Processing, 14(4):1462-1469, 2006.
