@@ -38,7 +38,7 @@ def main(dirname):
         #print(val_lab)
 
 if __name__ == '__main__':
-    main('../dataset/')
+    main('dataset/')
 
 
 
