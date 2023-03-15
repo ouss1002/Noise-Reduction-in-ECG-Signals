@@ -37,4 +37,4 @@ def main(dirname):
         #print(test_lab)
 
 if __name__ == '__main__':
-    main('/mnt/intern/user_sophie/short_ecg_0_1/test')
+    main('../dataset/')

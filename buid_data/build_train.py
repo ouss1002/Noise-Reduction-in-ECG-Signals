@@ -44,5 +44,5 @@ def main(dirname):
 
 
 if __name__ == '__main__':
-    main('/mnt/intern/user_sophie/short_ecg_0_1/train')
+    main('../dataset/')
 
